@@ -1,0 +1,5 @@
+scrolling_titlebar_text.scrolling_titlebar_settings:
+  route_name: scrolling_titlebar_text.scrolling_titlebar_settings
+  title: 'Scrolling Titlebar Text'
+  description: 'Scrolling Titlebar Text settings'
+  parent: system.admin_config_ui

@@ -1,0 +1,8 @@
+scrolling_titlebar_text.settings:
+  type: mapping
+  label: Settings
+  mapping:
+    scrolling_titlebar_text:
+      type: string
+    scrolling_titlebar_endstring:
+      type: string

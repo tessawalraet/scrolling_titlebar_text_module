@@ -1,0 +1,7 @@
+scrolling_titlebar_text:
+  version: 1.x
+  js:
+    scrolling_titlebar_text.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * @file
+ * Uninstall file for "Scrolling Titlebar Text".
+ */
+
+function scrolling_titlebar_text_uninstall() {
+    \Drupal::state()->delete('scrolling_titlebar_speed');
+    \Drupal::state()->delete('scrolling_titlebar_endstring');
+}

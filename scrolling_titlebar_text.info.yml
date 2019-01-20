@@ -1,0 +1,7 @@
+name: 'Scrolling Titlebar Text'
+description: 'Makes the Browser''s Title bar text to Scroll or Marquee(Text Effect).'
+package: 'User Interface'
+core: 8.x
+type: module
+dependencies: {  }
+configure: scrolling_titlebar_text.scrolling_titlebar_settings

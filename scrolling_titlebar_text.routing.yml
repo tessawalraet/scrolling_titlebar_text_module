@@ -1,0 +1,7 @@
+scrolling_titlebar_text.scrolling_titlebar_settings:
+  path: /admin/config/user-interface/scrolling-titlebar
+  defaults:
+    _title: 'Scrolling Titlebar Text'
+    _form: \Drupal\scrolling_titlebar_text\Form\ScrollingTitlebarSettings
+  requirements:
+    _permission: 'access administration pages'

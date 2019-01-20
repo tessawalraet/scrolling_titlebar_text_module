@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Module file for "Scrolling Titlebar Text".
+ */
+
+ /**
+ * Implements hook_attachments_page()
+ */
+
+function scrolling_titlebar_text_attachments_page(array &$attachments) {
+  $config = \Drupal::config('scrolling_titlebar_text.settings');
+
+  $attachments['#attached']['drupalSettings']['scrollingTitlebarText'] = array(
+    'speed' => $config->get('scrolling_titlebar_speed'),
+    'endstring' => $config->get('scrolling_titlebar_endstring'),
+   );
+
+    $attachments['#attached']['library'][] = 'scrolling_titlebar_text/scrolling_titlebar_text';
+}
